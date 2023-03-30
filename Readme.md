@@ -26,6 +26,6 @@ I made the linear regression in the plane 'xy'. I assumed that the plane is vert
 
 If on input bool = True, then the function returns the comparison between the catenary points and the catenary model.
 
-It does not wor very well for medium due to the proximoity of the points.
+It does not work very well for medium due to the proximoity of the points.
 
 . The 'catenary_3D.py' file resumes the results of clustering and displays in 3 dimensions the points and the model chain.
