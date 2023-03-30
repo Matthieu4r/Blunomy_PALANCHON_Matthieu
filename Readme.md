@@ -2,7 +2,7 @@ You may have to change the path of the files to make sure it works.
 
 . The 'data_processing.py' file is responsible for retrieving point data.
 
-. I decided to implement a clustering algorithm suitable for close lines. It is done in 'cluster_plane'. For this, the algorithm works in several steps:
+. I decided to implement a clustering algorithm suitable for close lines. For this, the algorithm works in several steps:
 
 First step, initialization: I put the first element in a cluster. Then I look at all the points close to less than epsilon of this point: I add them to the cluster. I put the unselected points in 'not_taken' to work with them later. I put the selected points in a pile.
 
